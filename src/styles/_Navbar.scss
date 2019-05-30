@@ -1,0 +1,28 @@
+
+#my-nav {
+  background-color: #7c4dff;
+
+}
+
+#navbar-brand {
+  color: snow;
+  font-weight: 500;
+  font-family: 'IBM Plex Sans', sans-serif;
+  //padding-left: 2em;
+  //font-family: 'IBM Plex Mono', monospace;
+}
+
+#nav-link a {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: snow;
+  padding-right: 2em;
+
+  &:hover {
+    color: #FFBE0B;
+  }
+}
+
+#hamburger {
+  //background-color: snow;
+  border-color: snow;
+}

@@ -1,0 +1,30 @@
+.landing {
+  background-color: #7c4dff;
+  height: 90VH;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 99% 73%, 0 85%);
+  clip-path: polygon(0 0, 100% 0%, 99% 73%, 0 85%);
+}
+
+
+.introduction {
+  //background-color: red;
+  margin-top: 3em;
+}
+
+.introduction-h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  color: snow;
+}
+
+
+.introduction-p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: snow;
+}
+
+#contact-button {
+  background-color: #FB5607;
+  text-transform: uppercase;
+  //font-weight: bold;
+  font-size: 1.1em;
+}

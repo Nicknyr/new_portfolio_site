@@ -1,0 +1,32 @@
+
+.portfolio {
+  h3 {
+    text-align: center;
+    padding-bottom: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .project-h4 {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-top: 1em;
+    //color: #FB5607;
+  }
+
+  hr {
+    width: 50%;
+  }
+
+  p {
+    font-size: 1.1em;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.8;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .portfolio-project {
+    height: 50VH;
+    background-color: #FAFAFA;
+  }
+}
