@@ -1,32 +1,70 @@
 
 .portfolio {
+  height: auto;
+
   h3 {
     text-align: center;
     padding-bottom: 1em;
     font-family: 'IBM Plex Mono', monospace;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .project-h4 {
+  .card-title {
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
     padding-top: 1em;
     //color: #FB5607;
   }
 
-  hr {
-    width: 50%;
+  .project-header {
+    //background-color: #7c4dff;
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
   }
 
-  p {
+
+  .project-text {
     font-size: 1.1em;
-    padding: 1em;
+    padding: .5em;
     text-align: center;
     line-height: 1.8;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
+  .project-button {
+    background-color: #FB5607;
+    color: snow;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    border: none;
+
+    &:hover {
+      background-color:  #FFBE0B;
+    }
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    //padding-bottom: 5em;
+  }
+
   .portfolio-project {
-    height: 50VH;
+    height: auto;
     background-color: #FAFAFA;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    //-moz-box-shadow:    3px 3px 8px 2px #ccc;
+    //-webkit-box-shadow: 3px 3px 8px 2px #ccc;
+    //box-shadow:         3px 3px 8px 2px #ccc;
   }
 }
