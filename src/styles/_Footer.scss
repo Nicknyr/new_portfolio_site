@@ -19,4 +19,10 @@
     color: snow;
     text-align: center;
   }
+
+  .fa-2x {
+    &:hover {
+      color: #FFBE0B;
+    }
+  }
 }
