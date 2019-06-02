@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Initials from '../images/initials.png';
 import {
   Collapse,
   Navbar,
@@ -28,7 +29,9 @@ class NavigationBar extends Component {
        <div>
          <Navbar expand="md" light id="my-nav">
            <NavbarBrand href="/">
-           <span id="navbar-brand">Nick Kinlen</span>
+           <span id="navbar-brand">
+            Nick Kinlen
+           </span>
            </NavbarBrand>
            <NavbarToggler onClick={this.toggle} id="hamburger"/>
            <Collapse isOpen={this.state.isOpen} navbar>

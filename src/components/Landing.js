@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Button } from 'reactstrap';
-
+import Computer from '../images/computer.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const Landing = (props) => {
   return (
       <Row className="landing">
-        <Col className="introduction" xs ={{size: 10, offset: 1}}>
-          <h1 className="introduction-h1">My name is Nick and I'm a web developer from NYC</h1>
-          <p className="introduction-p">I specialize in building web applications with the MERN stack</p>
-          <Button color="secondary" id="contact-button">Contact Me</Button>{' '}
+        <Col className="introduction" xs ={{size: 10, offset: 1}} md={{size: 6}}>
+          <h1 className="introduction-h1">Hi, my name is Nick and I'm a web developer from</h1>
+          <h1 className="introduction-nyc">New York City</h1>
+        </Col>
+        <Col className="computer" xs={{size: 10, offset: 1}} md={{size: 4, offset: 1}}>
+          <FontAwesomeIcon
+                icon={faLaptopCode}
+                size="10x"
+                color="snow"
+              />
         </Col>
       </Row>
   );

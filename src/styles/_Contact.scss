@@ -1,0 +1,36 @@
+
+.contact {
+  //background: rgb(255,190,11);
+  //background: linear-gradient(90deg, rgba(255,190,11,1) 0%, rgba(124,77,255,1) 81%);
+  background-color: #7c4dff;
+  //background-color: #EFEFEF;
+
+  .fa-envelope {
+    display: block;
+    margin: auto;
+    color: snow;
+  }
+
+  h3 {
+    text-align: center;
+    color: snow;
+    padding-top: 1em;
+  }
+
+  form {
+    width: 80%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 1.1em;
+    font-family: 'IBM Plex Mono', monospace;
+
+    label {
+      font-size: 1.2;
+      font-weight: 600;
+      font-family: 'IBM Plex Sans', sans-serif;
+      color: snow;
+    }
+
+  }
+}

@@ -1,6 +1,7 @@
 
 .portfolio {
   height: auto;
+  background-color: #FAFAFA;
 
   h3 {
     text-align: center;
@@ -57,7 +58,7 @@
   }
 
   .portfolio-project {
-    height: auto;
+    height: 80VH;
     background-color: #FAFAFA;
     margin-bottom: 3em;
     margin-left: auto;
@@ -66,5 +67,6 @@
     //-moz-box-shadow:    3px 3px 8px 2px #ccc;
     //-webkit-box-shadow: 3px 3px 8px 2px #ccc;
     //box-shadow:         3px 3px 8px 2px #ccc;
+
   }
 }
