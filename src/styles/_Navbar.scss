@@ -7,11 +7,11 @@
   color: snow;
   font-weight: 500;
   font-family: 'IBM Plex Sans', sans-serif;
-  //padding-left: 2em;
-  //font-family: 'IBM Plex Mono', monospace;
 }
 
 #nav-link a {
+  font-size: 1.1em;
+  font-weight: bolder;
   font-family: 'IBM Plex Sans', sans-serif;
   color: snow;
   padding-right: 2em;
@@ -24,4 +24,12 @@
 #hamburger {
   //background-color: snow;
   border-color: snow;
+}
+
+
+
+@media(min-width:768px){
+  #navbar-brand {
+    padding-left: 30px;
+  }
 }

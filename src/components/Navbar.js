@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Initials from '../images/initials.png';
+import Logo from '../images/logo4.png';
 import {
   Collapse,
   Navbar,
@@ -30,7 +30,7 @@ class NavigationBar extends Component {
          <Navbar expand="md" light id="my-nav">
            <NavbarBrand href="/">
            <span id="navbar-brand">
-            Nick Kinlen
+            <img src={Logo}  alt="logo" height="40"></img>
            </span>
            </NavbarBrand>
            <NavbarToggler onClick={this.toggle} id="hamburger"/>
