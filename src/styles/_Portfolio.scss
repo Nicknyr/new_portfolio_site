@@ -1,7 +1,7 @@
 
 .portfolio {
   height: auto;
-  background-color: #FAFAFA;
+  //background-color: #FAFAFA;
 
   h3 {
     text-align: center;
@@ -28,9 +28,9 @@
 
   .project-text {
     font-size: 1.1em;
-    padding: .5em;
+    //padding: .2em;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.5;
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
@@ -59,15 +59,15 @@
   }
 
   .portfolio-project {
-    height: 80VH;
+    height: 70VH;
     background-color: #FAFAFA;
-    margin-bottom: 3em;
+    margin-bottom: 10em;
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    //-moz-box-shadow:    3px 3px 8px 2px #ccc;
-    //-webkit-box-shadow: 3px 3px 8px 2px #ccc;
-    //box-shadow:         3px 3px 8px 2px #ccc;
+    -moz-box-shadow:    3px 3px 8px 2px #ccc;
+    -webkit-box-shadow: 3px 3px 8px 2px #ccc;
+    box-shadow:         3px 3px 8px 2px #ccc;
 
   }
 }

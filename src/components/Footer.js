@@ -7,14 +7,14 @@ import { faCheckSquare, faCoffee, faBook } from '@fortawesome/free-solid-svg-ico
 const Footer = (props) => {
   return (
     <Row className="footer">
-      <Col xs={{size: 12}}>
+      <Col xs={{size: 12}} md={{size: 6}}>
         <ul>
           <li>
             <a href="/">
               <FontAwesomeIcon
                     icon={['fab', 'linkedin']}
                     size="2x"
-                    color="snow"
+                    color="#92A2B1"
                   />
             </a>
           </li>
@@ -23,7 +23,7 @@ const Footer = (props) => {
               <FontAwesomeIcon
                     icon={['fab', 'github-square']}
                     size="2x"
-                    color="snow"
+                    color="#92A2B1"
                   />
             </a>
           </li>
@@ -32,13 +32,13 @@ const Footer = (props) => {
               <FontAwesomeIcon
                     icon={['fab', 'stack-overflow']}
                     size="2x"
-                    color="snow"
+                    color="#92A2B1"
                   />
             </a>
           </li>
         </ul>
       </Col>
-      <Col xs={{size: 12}}>
+      <Col xs={{size: 12}} md={{size: 6}}>
         <p className="copyright">&#169; 2019 Nick Kinlen</p>
       </Col>
     </Row>

@@ -15,10 +15,10 @@ import { Card, CardImg, CardText, CardBody,
 
 const Portfolio = (props) => {
   return (
-    <Container>
+      <Container>
       <Row className="portfolio" id="portfolio">
-        <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}} className="portfolio-project">
-          <Card>
+        <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}}>
+          <Card className="portfolio-project">
           <CardHeader className="project-header">Steemit.com Top Posts</CardHeader>
           <CardBody>
             <CardText className="project-text">A React and Redux web app that uses the dSteem API to pull social media posts from the Steem blockchain</CardText>
@@ -27,8 +27,8 @@ const Portfolio = (props) => {
           </CardBody>
         </Card>
         </Col>
-        <Col xs={{size: 10, offset: 1}}  md={{size: 4, offset: 0}} className="portfolio-project">
-          <Card>
+        <Col xs={{size: 10, offset: 1}}  md={{size: 4, offset: 0}}>
+          <Card className="portfolio-project">
             <CardHeader className="project-header">Bitcoin Price Line Graph</CardHeader>
             <CardBody>
               <CardText className="project-text">A D3.js line graph that makes a call to the CryptoCompare API and plots Bitcoin prices</CardText>
@@ -37,8 +37,8 @@ const Portfolio = (props) => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs={{size: 10, offset: 1}} md={{size: 4, offser: 0}} className="portfolio-project">
-            <Card>
+        <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}}>
+            <Card className="portfolio-project">
               <CardHeader className="project-header">European GDP Choropleth Map</CardHeader>
               <CardBody>
                 <CardText className="project-text">Mapbox choropleth map that uses Leaflet.js and GeoJSON data to plot GDP by nation</CardText>
@@ -47,8 +47,8 @@ const Portfolio = (props) => {
               </CardBody>
             </Card>
         </Col>
-        <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}} className="portfolio-project">
-          <Card>
+        <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}}>
+          <Card className="portfolio-project">
           <CardHeader className="project-header">React Recipe App</CardHeader>
           <CardBody>
             <CardText className="project-text">React.js app that allows the user to view, add, edit, and delete recipes in a To-Do-List style App</CardText>
@@ -57,8 +57,8 @@ const Portfolio = (props) => {
           </CardBody>
         </Card>
         </Col>
-        <Col xs={{size: 10, offset: 1}}  md={{size: 4, offset: 0}} className="portfolio-project">
-          <Card>
+        <Col xs={{size: 10, offset: 1}}  md={{size: 4, offset: 0}}>
+          <Card className="portfolio-project">
             <CardHeader className="project-header">JQuery Pomodoro Clock</CardHeader>
             <CardBody>
               <CardText className="project-text">A classic Pomodoro clock built with Jquery</CardText>
@@ -67,8 +67,8 @@ const Portfolio = (props) => {
             </CardBody>
           </Card>
         </Col>
-        <Col xs={{size: 10, offset: 1}} md={{size: 4, offser: 0}} className="portfolio-project">
-            <Card>
+        <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}}>
+            <Card className="portfolio-project">
               <CardHeader className="project-header">NASA & SpaceX Facilities Map</CardHeader>
               <CardBody>
                 <CardText className="project-text">A Mapbox world map that plots NASA and SpaceX facilities using React-Leaflet, an official NASA API, and a SpaceX API</CardText>
