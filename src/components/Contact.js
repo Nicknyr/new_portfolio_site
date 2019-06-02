@@ -14,8 +14,8 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Contact = (props) => {
   return (
-      <Row className="contact">
-        <Col xs={{size: 10, offset: 1}}>
+      <Row className="contact" id="contact">
+        <Col xs={{size: 10, offset: 1}} md={{size: 6}}>
           <h3 className="h3">Contact Me</h3>
             <FontAwesomeIcon
                   icon={faEnvelope}

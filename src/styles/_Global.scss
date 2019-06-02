@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400|IBM+Plex+Sans&display=swap');
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-//$yellow: #FFBE0B;
-//$orange: #FB5607;
-
-
 //font-family: 'IBM Plex Mono', monospace;
 //font-family: 'IBM Plex Sans', sans-serif;
+
+$yellow: #FFBE0B;
+$orange: #FB5607;
+$purple: #7c4dff;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  color: $orange;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+/*
+@media(min-width:576px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+*/

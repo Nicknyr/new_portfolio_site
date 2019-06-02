@@ -17,7 +17,7 @@
 
 .introduction-h1 {
   font-size: 2.9em;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 0;
   font-family: 'IBM Plex Mono', monospace;
   color: snow;
@@ -58,4 +58,24 @@
   //font-weight: bold;
   font-size: 1.1em;
   border: none;
+}
+
+
+
+@media(min-width:768px){
+
+  .introduction-h1 {
+    font-size: 3.1em;
+    padding-top: 2em;
+  }
+
+  .computer {
+    position: relative;
+    top: 110px;
+    opacity: 1;
+  	animation-name: fadeInOpacity;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-in;
+  	animation-duration: 2.5s;
+  }
 }

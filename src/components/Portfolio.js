@@ -10,7 +10,7 @@ import { Card, CardImg, CardText, CardBody,
 const Portfolio = (props) => {
   return (
     <Container>
-      <Row className="portfolio">
+      <Row className="portfolio" id="portfolio">
         <Col xs={{size: 10, offset: 1}} md={{size: 4, offset: 0}} className="portfolio-project">
           <Card>
           <CardHeader className="project-header">Project One</CardHeader>
