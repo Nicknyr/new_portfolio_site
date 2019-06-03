@@ -18,6 +18,7 @@ import About from './components/About.js';
 import Contact from './components/Contact.js';
 import Portfolio from './components/Portfolio.js';
 import Footer from './components/Footer.js';
+import Animate from './components/Animate.js';
 
 library.add(fab, faCheckSquare, faCoffee, faAnchor, faBuilding, faHockeyPuck, faLaptopCode, faEnvelope);
 

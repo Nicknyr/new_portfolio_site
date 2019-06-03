@@ -3,5 +3,34 @@
   height: 50VH;
   margin-bottom: 12em;
   line-height: 1.8;
+  //opacity: 1;
+	//animation-name: fadeInOpacity;
+	//animation-iteration-count: 1;
+	//animation-timing-function: ease-in;
+	//animation-duration: 2.5s;
+}
 
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  animation-name: fadeInOpacity;
 }

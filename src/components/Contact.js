@@ -10,10 +10,13 @@ import {
   FormText
 } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
 
 
 const Contact = (props) => {
   return (
+    <Fade bottom>
+    <Container>
       <Row className="contact" id="contact">
         <Col xs={{size: 10, offset: 1}} md={{size: 6}}>
           <h3 className="h3">Contact Me</h3>
@@ -39,6 +42,8 @@ const Contact = (props) => {
         </Form>
         </Col>
       </Row>
+    </Container>
+    </Fade>
   );
 }
 
