@@ -7,7 +7,7 @@ import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const Landing = (props) => {
   return (
-      <Row className="landing scroll">
+      <Row className="landing scroll" id="landing-id">
         <Col className="introduction" xs ={{size: 10, offset: 1}} sm={{size: 8}} md={{size: 6}}>
           <h1 className="introduction-h1">Hi, my name is Nick and I'm a full stack web developer from </h1>
           <h1 className="introduction-nyc">New York City</h1>

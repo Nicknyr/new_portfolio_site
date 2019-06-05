@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
-
+import Slide from 'react-reveal/Slide';
 
 const Contact = (props) => {
   return (
@@ -19,6 +19,7 @@ const Contact = (props) => {
     <Container>
       <Row className="contact" id="contact">
         <Col xs={{size: 10, offset: 1}} md={{size: 6}}>
+          <Fade left>
           <h3 className="h3">Contact Me</h3>
             <FontAwesomeIcon
                   icon={faEnvelope}
@@ -40,7 +41,13 @@ const Contact = (props) => {
           </FormGroup>
           <Button id="contact-button">Submit</Button>
         </Form>
-        </Col>
+        </Fade>
+      </Col>
+      <Col xs={{size: 10, offset: 1}} md={{size: 4}}>
+        <Fade right>
+        <h2 className="linked-in">Or get in touched on <a href="/">LinkedIn</a></h2>
+        </Fade>
+      </Col>
       </Row>
     </Container>
     </Fade>

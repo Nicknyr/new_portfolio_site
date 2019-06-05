@@ -7,12 +7,12 @@
   -moz-box-shadow:    3px 3px 8px 2px #ccc;
   -webkit-box-shadow: 3px 3px 8px 2px #ccc;
   box-shadow:         3px 3px 8px 2px #ccc;
-
   opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 2.5s;
+  //position: relative;
 
   .fa-envelope {
     display: block;
@@ -27,7 +27,7 @@
   }
 
   form {
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding-top: 1em;
     padding-bottom: 2em;
@@ -42,9 +42,31 @@
     }
 
   }
+
+  .linked-in {
+    font-size: 3em;
+    margin-top: 4em;
+    //position: absolute;
+    //top: 50%;
+    //transform: translateY(-50%);
+    font-family: 'IBM Plex Mono', monospace;
+    color: snow;
+    vertical-align: middle;
+  }
+
+  a {
+    color: #FFBE0B;
+  }
 }
 
 
 @media(min-width:768px){
+  .contact {
+    margin-top: 10em;
+    margin-bottom: 10em;
 
+    form {
+      width: 80%;
+    }
+  }
 }

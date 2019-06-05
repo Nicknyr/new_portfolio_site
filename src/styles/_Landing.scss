@@ -16,7 +16,7 @@
 
 
 .introduction-h1 {
-  font-size: 2.9em;
+  font-size: 2.6em;
   padding-top: 1em;
   padding-bottom: 0;
   font-family: 'IBM Plex Mono', monospace;
@@ -61,6 +61,10 @@
   border: none;
 }
 
+#landing-id {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 @media(min-width:768px){

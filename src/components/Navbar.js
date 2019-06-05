@@ -36,7 +36,9 @@ class NavigationBar extends Component {
              </span>
              </NavbarBrand>
           </Fade>
+          <Fade right>
            <NavbarToggler onClick={this.toggle} id="hamburger"/>
+           </Fade>
            <Collapse isOpen={this.state.isOpen} navbar>
              <Nav className="ml-auto" navbar>
                <Fade right>
