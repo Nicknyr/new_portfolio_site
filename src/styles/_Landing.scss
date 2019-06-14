@@ -1,8 +1,8 @@
 .landing {
   background-color: #7c4dff;
-  height: 100VH;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 99% 73%, 0 85%);
-  clip-path: polygon(0 0, 100% 0%, 99% 73%, 0 85%);
+  height: auto;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 69%, 0 86%);
+  clip-path: polygon(0 0, 100% 0%, 100% 69%, 0 86%);
 }
 
 @keyframes fadeInOpacity {
@@ -40,6 +40,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 2s;
+  padding-bottom: 2em;
 }
 
 .computer {
@@ -50,6 +51,7 @@
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 2.5s;
+  padding-bottom: 10em;
 }
 
 
@@ -66,12 +68,19 @@
   margin-right: 0;
 }
 
+@media(min-width:576px){
+
+}
+
 
 @media(min-width:768px){
-
   .introduction-h1 {
-    font-size: 3.1em;
+    font-size: 2.8em;
     padding-top: 2em;
+  }
+
+  .introduction-nyc {
+    padding-bottom: 5em;
   }
 
   .computer {
@@ -84,5 +93,6 @@
   	animation-iteration-count: 1;
   	animation-timing-function: ease-in;
   	animation-duration: 2.5s;
+    padding-bottom: 14em;
   }
 }

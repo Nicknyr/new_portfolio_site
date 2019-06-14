@@ -1,12 +1,20 @@
 
+.portfolio-h3 {
+  text-align: center;
+  padding-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .portfolio {
   height: auto;
 
-  h3 {
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+  &:hover {
+    a {
+    text-decoration: none;
   }
+}
 
   .project-header {
     background-color: #7c4dff;
@@ -41,6 +49,7 @@
     &:hover {
       background-color:  #FFBE0B;
     }
+
   }
 
   img {
